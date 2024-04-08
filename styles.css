@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#title {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    background-image: url(imageoflilaflowers.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Times New Roman", Times, serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.colour {
+    color: #8261D0;
+    padding: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 95%;
+}
+
+#dropdown {
+    width: 100%;
+}
+
+#comments {
+    width: 95%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: auto;
+
+}
+
+.inline {
+    display: inline;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #8261D0;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    background-image: url(imageoflilaflowers.jpg);
+    background-size: cover;
+    padding: 20px;
+    color: #f4f4f4;
+    text-align: center;
+    font-style: italic;
+    transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+}
